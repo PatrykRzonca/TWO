@@ -413,5 +413,15 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "COMPANY": "Quasi Peak",
+    "EMAIL": "patryk58111@gmail.com",
+    "ENGINEER": "Patryk Rzońca",
+    "PHONE NUMBER": "731375090",
+    "REVISION": "0.0",
+    "START_DATE": "28/03/2025",
+    "STATUS": "DRAFT",
+    "STOP_DATE": "",
+    "TITLE": "TWO - Tester wzmacniaczy operacyjnych"
+  }
 }

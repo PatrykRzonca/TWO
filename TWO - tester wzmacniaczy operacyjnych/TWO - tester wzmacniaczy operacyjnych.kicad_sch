@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "b951ac0a-97f2-4e5f-9ced-45c9973cabe5")
 	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "2025-03-28")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
 	(lib_symbols)
 	(polyline
 		(pts
@@ -233,6 +239,65 @@
 			)
 		)
 		(uuid "59fddce8-7dc2-4606-b6f4-f940cca28e22")
+	)
+	(text "${STATUS}"
+		(exclude_from_sim no)
+		(at 18.288 14.732 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 143 1)
+			)
+		)
+		(uuid "f43cbe9f-dea1-4688-b007-365c211d8c12")
+	)
+	(text_box "Basic project requirements\n- Measure current on main rail\n- Measure current per amplifier\n- Measure voltage on main rail\n- Measure votlage per input of amplifier\n- Power indication\n- Voltage from external battery as well as from power supply\n- Test points\n- Testing two operational amplifiers at the same time\n- Testing 4-5 mostly used configuration\n- Using socket for operational amplifier\n- Effect of output loading (capacitor)\n- Current capability of output\n- CM voltage range"
+		(exclude_from_sim no)
+		(at 39.37 25.4 0)
+		(size 25.4 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "79c0da42-e3ae-4539-be1b-fbfeed8fe9bb")
+	)
+	(text_box "Used Components:\n- LM709CN\n- LM358M\n- LM324N\n- TL071CP\n- NE5534P\n- uA741CN/CP\n\n- NE555N/P\nQuad Comparator\n- KA339A\nQuad Bilateral Switch\n- TC4066BP\nSMPS Controller\n- KA7500B"
+		(exclude_from_sim no)
+		(at 12.7 25.4 0)
+		(size 25.4 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "850a0616-5fc8-4236-9257-5e0daf892bd6")
 	)
 	(sheet_instances
 		(path "/"
