@@ -271,6 +271,7 @@
 				(size 0.635 0.635)
 				(thickness 0.508)
 				(bold yes)
+				(color 194 0 0 1)
 			)
 			(justify left top)
 		)
@@ -292,8 +293,9 @@
 		(effects
 			(font
 				(size 0.635 0.635)
-				(thickness 0.508)
+				(thickness 0.127)
 				(bold yes)
+				(color 194 0 0 1)
 			)
 			(justify left top)
 		)
