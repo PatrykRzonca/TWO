@@ -1,0 +1,1587 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4b51376e-1ddf-4862-81ed-9b71938a4ec9")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "2025-03-28")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols
+		(symbol "Amplifier_Operational:LM324"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM324"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM324_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 176.53 118.11) (xy 176.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bbd566-14ca-4087-ad2e-979a4fc4edc5")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704ac9c4-2920-4253-84cc-db8d0e6ac249")
+	)
+	(wire
+		(pts
+			(xy 176.53 109.22) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be6ee8e-6319-4c16-8d85-40bbcbf8b374")
+	)
+	(wire
+		(pts
+			(xy 176.53 83.82) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a062f6-bd5a-4069-b121-13478a278e0a")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 120.65 101.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "063fcb64-aec2-42af-9279-97cb921a8cf1")
+		(property "Reference" "U1"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "9566d1ef-1f98-4155-9413-5042e245b375")
+		)
+		(pin "4"
+			(uuid "f5003909-c1f6-43b6-bf74-ea29d15e27be")
+		)
+		(pin "14"
+			(uuid "54ba7dfd-8149-4be5-aa2f-96d37b94ea07")
+		)
+		(pin "8"
+			(uuid "27a17a5a-9814-4923-9751-76632c0cef65")
+		)
+		(pin "10"
+			(uuid "6c73d3d6-6a0f-477e-8099-3501097c39c4")
+		)
+		(pin "3"
+			(uuid "984a78ae-60be-4244-a278-d2a1c65d7c2d")
+		)
+		(pin "13"
+			(uuid "eb722566-b969-4041-a3ea-520b304c43b8")
+		)
+		(pin "5"
+			(uuid "35927e95-6376-4027-823a-24ce3c36fba6")
+		)
+		(pin "6"
+			(uuid "6baad507-7a62-42ab-a038-dfc3422d9fae")
+		)
+		(pin "7"
+			(uuid "76e0e513-4b09-42e8-a431-f1efc9126fad")
+		)
+		(pin "12"
+			(uuid "d0042251-b6c7-42b8-ab1f-f28932693e7c")
+		)
+		(pin "1"
+			(uuid "756f22e8-0469-4fc4-9a90-6f848cbda7c2")
+		)
+		(pin "2"
+			(uuid "af57aa5e-9fdf-4822-9057-5967bc9d63dc")
+		)
+		(pin "9"
+			(uuid "20935806-c46a-4aa2-bb8f-1ccc11b9c53b")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 176.53 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16eceb9d-c80e-4830-8fc7-00992f11534c")
+		(property "Reference" "#PWR0110"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 179.07 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "151c17b6-8f64-43cb-9c81-0e17dee8b021")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f6eb107-861e-4b4e-99a1-073df10c2adc")
+		(property "Reference" "#PWR0105"
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0V"
+			(at 178.308 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5096bc-b82f-4de4-9c61-71be3e6e10cb")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 161.29 101.6 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72ad0f37-1a5a-44a8-80c6-689e20ff194d")
+		(property "Reference" "U1"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 162.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "9566d1ef-1f98-4155-9413-5042e245b376")
+		)
+		(pin "4"
+			(uuid "f5003909-c1f6-43b6-bf74-ea29d15e27bf")
+		)
+		(pin "14"
+			(uuid "f3758b13-7571-484d-8347-fa7ef765ee53")
+		)
+		(pin "8"
+			(uuid "27a17a5a-9814-4923-9751-76632c0cef66")
+		)
+		(pin "10"
+			(uuid "6c73d3d6-6a0f-477e-8099-3501097c39c5")
+		)
+		(pin "3"
+			(uuid "984a78ae-60be-4244-a278-d2a1c65d7c2e")
+		)
+		(pin "13"
+			(uuid "6900c624-2f23-42f3-bf64-6abc3ced4ffa")
+		)
+		(pin "5"
+			(uuid "3106a30d-8b87-4486-8f1c-0011bc1320c0")
+		)
+		(pin "6"
+			(uuid "6d5cf6b5-ed17-48d1-b220-894e9246791f")
+		)
+		(pin "7"
+			(uuid "114671f3-1cb4-4635-b643-ac0433a30c67")
+		)
+		(pin "12"
+			(uuid "4af5d7d9-3b32-4cd5-ac70-46daec9e48a9")
+		)
+		(pin "1"
+			(uuid "756f22e8-0469-4fc4-9a90-6f848cbda7c3")
+		)
+		(pin "2"
+			(uuid "af57aa5e-9fdf-4822-9057-5967bc9d63dd")
+		)
+		(pin "9"
+			(uuid "20935806-c46a-4aa2-bb8f-1ccc11b9c53c")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 139.7 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9f8bc8b-c440-4f19-82b6-5aea68659d14")
+		(property "Reference" "U1"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "9566d1ef-1f98-4155-9413-5042e245b372")
+		)
+		(pin "4"
+			(uuid "f5003909-c1f6-43b6-bf74-ea29d15e27bb")
+		)
+		(pin "14"
+			(uuid "54ba7dfd-8149-4be5-aa2f-96d37b94ea04")
+		)
+		(pin "8"
+			(uuid "215bc487-e1d6-4f52-8d1d-082a668b0854")
+		)
+		(pin "10"
+			(uuid "67a83812-823b-4739-bcc3-9d04de5f2fe2")
+		)
+		(pin "3"
+			(uuid "984a78ae-60be-4244-a278-d2a1c65d7c2a")
+		)
+		(pin "13"
+			(uuid "eb722566-b969-4041-a3ea-520b304c43b5")
+		)
+		(pin "5"
+			(uuid "3106a30d-8b87-4486-8f1c-0011bc1320bc")
+		)
+		(pin "6"
+			(uuid "6d5cf6b5-ed17-48d1-b220-894e9246791b")
+		)
+		(pin "7"
+			(uuid "114671f3-1cb4-4635-b643-ac0433a30c63")
+		)
+		(pin "12"
+			(uuid "d0042251-b6c7-42b8-ab1f-f28932693e79")
+		)
+		(pin "1"
+			(uuid "756f22e8-0469-4fc4-9a90-6f848cbda7bf")
+		)
+		(pin "2"
+			(uuid "af57aa5e-9fdf-4822-9057-5967bc9d63d9")
+		)
+		(pin "9"
+			(uuid "8aaff55b-1c18-415a-88a3-01f2d37b13a9")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd5d272-80f0-462f-8b88-4a5eb65bb2c5")
+		(property "Reference" "R4"
+			(at 179.07 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 179.07 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.752 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd8904f3-cc3e-4e4b-8593-d25767e76e1d")
+		)
+		(pin "1"
+			(uuid "cd52a4b0-088a-4204-931b-76a73d9bc282")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 99.06 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b58800-217d-4a66-825f-5c41f83fe2f4")
+		(property "Reference" "U1"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "9566d1ef-1f98-4155-9413-5042e245b373")
+		)
+		(pin "4"
+			(uuid "f5003909-c1f6-43b6-bf74-ea29d15e27bc")
+		)
+		(pin "14"
+			(uuid "54ba7dfd-8149-4be5-aa2f-96d37b94ea05")
+		)
+		(pin "8"
+			(uuid "27a17a5a-9814-4923-9751-76632c0cef63")
+		)
+		(pin "10"
+			(uuid "6c73d3d6-6a0f-477e-8099-3501097c39c2")
+		)
+		(pin "3"
+			(uuid "f71d28c4-6658-4b57-af1e-134803c154db")
+		)
+		(pin "13"
+			(uuid "eb722566-b969-4041-a3ea-520b304c43b6")
+		)
+		(pin "5"
+			(uuid "3106a30d-8b87-4486-8f1c-0011bc1320bd")
+		)
+		(pin "6"
+			(uuid "6d5cf6b5-ed17-48d1-b220-894e9246791c")
+		)
+		(pin "7"
+			(uuid "114671f3-1cb4-4635-b643-ac0433a30c64")
+		)
+		(pin "12"
+			(uuid "d0042251-b6c7-42b8-ab1f-f28932693e7a")
+		)
+		(pin "1"
+			(uuid "d003d69d-fac6-4b7f-ac01-b4c8aced6264")
+		)
+		(pin "2"
+			(uuid "3387f23b-fe4f-47c0-89fc-03815f717bd3")
+		)
+		(pin "9"
+			(uuid "20935806-c46a-4aa2-bb8f-1ccc11b9c539")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 179.07 101.6 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8101489-6312-416b-986e-e4c43f3baa01")
+		(property "Reference" "U1"
+			(at 177.8 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 177.8 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 180.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "38c428b7-da97-4a43-b455-b84eeccd0da2")
+		)
+		(pin "4"
+			(uuid "37aba344-adcd-42f4-b3f0-e211fb82829e")
+		)
+		(pin "14"
+			(uuid "54ba7dfd-8149-4be5-aa2f-96d37b94ea06")
+		)
+		(pin "8"
+			(uuid "27a17a5a-9814-4923-9751-76632c0cef64")
+		)
+		(pin "10"
+			(uuid "6c73d3d6-6a0f-477e-8099-3501097c39c3")
+		)
+		(pin "3"
+			(uuid "984a78ae-60be-4244-a278-d2a1c65d7c2c")
+		)
+		(pin "13"
+			(uuid "eb722566-b969-4041-a3ea-520b304c43b7")
+		)
+		(pin "5"
+			(uuid "3106a30d-8b87-4486-8f1c-0011bc1320be")
+		)
+		(pin "6"
+			(uuid "6d5cf6b5-ed17-48d1-b220-894e9246791d")
+		)
+		(pin "7"
+			(uuid "114671f3-1cb4-4635-b643-ac0433a30c65")
+		)
+		(pin "12"
+			(uuid "d0042251-b6c7-42b8-ab1f-f28932693e7b")
+		)
+		(pin "1"
+			(uuid "756f22e8-0469-4fc4-9a90-6f848cbda7c1")
+		)
+		(pin "2"
+			(uuid "af57aa5e-9fdf-4822-9057-5967bc9d63db")
+		)
+		(pin "9"
+			(uuid "20935806-c46a-4aa2-bb8f-1ccc11b9c53a")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce9de09-83d8-4e46-a909-e45113b037af")
+		(property "Reference" "R9"
+			(at 179.07 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 179.07 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.752 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b79e02c-daaf-491d-813b-56c995b2c344")
+		)
+		(pin "1"
+			(uuid "7b55914e-dbe6-4bce-8a4d-147efebc2755")
+		)
+		(instances
+			(project "TWO - tester wzmacniaczy operacyjnych"
+				(path "/b951ac0a-97f2-4e5f-9ced-45c9973cabe5/eb5bf765-08a2-40b3-aeea-f9b24ad51717"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

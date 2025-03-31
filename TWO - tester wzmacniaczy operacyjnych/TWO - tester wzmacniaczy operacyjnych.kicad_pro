@@ -423,6 +423,18 @@
     [
       "b951ac0a-97f2-4e5f-9ced-45c9973cabe5",
       "Root"
+    ],
+    [
+      "c407210c-4fc6-42eb-a2f2-900857f3705b",
+      "LM358M"
+    ],
+    [
+      "eb5bf765-08a2-40b3-aeea-f9b24ad51717",
+      "LM324N"
+    ],
+    [
+      "a48f1342-a331-4208-86df-8715ff707273",
+      "TL071CP- NE5534P - uA741CNCP"
     ]
   ],
   "text_variables": {
