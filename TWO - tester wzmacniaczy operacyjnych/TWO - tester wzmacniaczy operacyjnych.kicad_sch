@@ -821,7 +821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "TL071CP- NE5534P - uA741CN/CP.kicad_sch"
+		(property "Sheetfile" "Mixed_OPAMP.kicad_sch"
 			(at 177.8 127.5846 0)
 			(effects
 				(font
